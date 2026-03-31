@@ -12,7 +12,7 @@ class ___FILEBASENAME___
 private:
 
 public:
-    explicit ___FILEBASENAME___() = default;
+    ___FILEBASENAME___() = default;
 };
 }
 

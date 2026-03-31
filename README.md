@@ -82,6 +82,7 @@ brew list googletest
 You can use this information to double check if the paths detailed in the test template are correct.  
 If the paths are different, the usual change is in the version number, you can make the necessary changes  
 as required in either the project Build Settings or within the template itself.  
+There is a _lot_ of **double clicking** in each of the relevant fields required...  
 
 #### Setting the library search paths:  
 ![Setting the library serach path](assets/library_search_paths.png)  

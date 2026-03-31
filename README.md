@@ -83,27 +83,36 @@ You can use this information to double check if the paths detailed in the test t
 If the paths are different, the usual change is in the version number, you can make the necessary changes  
 as required in either the project Build Settings or within the template itself.  
 
+#### Setting the library search paths:  
 ![Setting the library serach path](assets/library_search_paths.png)  
-  
+
+#### Listing the library search paths:  
 ![Listing the library search paths](assets/listing_library_search_paths.png)  
-  
+
+#### Setting the header search paths:  
 ![Setting the header search paths](assets/header_search_paths.png)  
-  
+
+#### Listing the header search paths: 
 ![Listing the header search paths](assets/listing_header_search_paths.png)  
-  
+
+#### Setting the linker flags:  
 ![Setting the relevant linker flags for googletest](assets/other_linker_flags.png)  
-  
+
+#### Listing (adding and removing) the required linker flags:  
 ![Listing (and adding/removing) the required linker flags](assets/listing_linker_flags.png)  
-  
+
+#### Changing  the settings in the TemplateInfo.plist file using Xcode:  
 ![Changing the settings in the test project template](assets/xcode_test_project_configuration.png)  
   
 It is, probably a good idea to make sure that the two projects are set to the same C++ standard:
 
+#### Viewing (and setting) the C++ standard in the main project:  
 ![main project C++ standard](assets/main_project_cpp_standard.png)  
 
+#### Viewing (and setting) the C++ standard in the test project:  
 ![test project C++ standard](assets/test_project_cpp_standard.png)  
 
-# Caveat
+# Caveat  
 I will not be able to respond to enquiries or commentaries as quickly or as efficiently as people may expect.  
 If you run into a problem, please by all means reach out, but I do encourage you to try and sort the problem out,  
 maybe fork the project and create your own, better, solution.  

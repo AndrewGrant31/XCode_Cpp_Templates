@@ -5,7 +5,7 @@
 // if not, just complete the path until the error message goes away
 #include "pch.hh"
 
-namespace NAMESPACE
+namespace NAMESPACE   // change this to something more suitable
 {
 class ___FILEBASENAME___
 {

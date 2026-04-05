@@ -7,12 +7,12 @@
 
 namespace NAMESPACE   // change this to something more suitable
 {
-class ___FILEBASENAME___
+class ___FILEBASENAMEASIDENTIFIER___ 
 {
 private:
 
 public:
-    ___FILEBASENAME___() = default;
+    ___FILEBASENAMEASIDENTIFIER___ () = default;
 };
 }
 

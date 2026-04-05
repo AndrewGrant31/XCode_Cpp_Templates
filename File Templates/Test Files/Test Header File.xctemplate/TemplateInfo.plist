@@ -28,6 +28,6 @@
 	<key>DefaultCompletionName</key>
 	<string>Header</string>
 	<key>MainTemplateFile</key>
-	<string>test___FILEBASENAME___.hpp</string>
+	<string>___FILEBASENAME___.hpp</string>
 </dict>
 </plist>

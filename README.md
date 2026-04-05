@@ -113,6 +113,13 @@ It is, probably a good idea to make sure that the two projects are set to the sa
 #### Viewing (and setting) the C++ standard in the test project:  
 ![test project C++ standard](assets/test_project_cpp_standard.png)  
 
+#### Add project source files to test environment:  
+![add project source files to test environment](assets/add_project_source_files_to_testing_environment.png)  
+You will need to add the relevant source files from the project to the testing environment. To do this use head over to the test project target and display the build phases page.  
+In the section titled Build Phases, expand the Compile Sources. Now you can either use the plus symbol (located at the bottom of the Compile Sources section) to include the relevant sources from the main project or you can just drag and drop the relevant source files fromthe main project into the Compile Sources section. Both methods are quite valid and effective.  
+![Close up of the Compile Sources section with the added source files](assets/closeup_of_test_project_compile_sources.png)  
+Be sure to include the pch.cpp files, if you are using precompiled header files.  
+
 # Caveat  
 I will not be able to respond to enquiries or commentaries as quickly or as efficiently as people may expect.  
 If you run into a problem, please by all means reach out, but I do encourage you to try and sort the problem out,  

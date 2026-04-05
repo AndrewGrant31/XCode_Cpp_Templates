@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <key>TEST</key>
-        <string>Test</string>
-        <key>TESTLC</key>
-        <string>test</string>
-        <key>CLASS</key>
-        <string>___FILEBASENAME___</string>
-        <key>TESTFILENAME</key>
-        <string>___TESTLC______FILENAME___</string>
-    </dict>
-
+<dict>
+	<key>TEST</key>
+	<string>Test</string>
+	<key>TESTLC</key>
+	<string>test</string>
+	<key>CLASS</key>
+	<string>___FILEBASENAMEASIDENTIFIER___</string>
+	<key>TESTFILENAME</key>
+	<string>___FILENAME___</string>
+</dict>
 </plist>

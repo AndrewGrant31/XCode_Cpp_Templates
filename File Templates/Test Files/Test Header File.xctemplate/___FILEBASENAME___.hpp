@@ -8,7 +8,7 @@
 // declaration (header) file for testing
 #include ""
 
-class test___FILEBASENAMEASIDENTIFIER___ : public ::testing::
+class ___FILEBASENAMEASIDENTIFIER___ : public ::testing::
 {
 private:
     

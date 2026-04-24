@@ -51,6 +51,11 @@ Templates
         └── C++23 Project.xctemplate  
             └── TemplateInfo.plist  
 ```
+## The Test Source File  
+When creating the [main project] code source file, you do not need to add the extension .cpp. Just the name of the relevant header file is suffice.  
+You do need to add the .hh extension to the header file. I'll try and get all of this sorted out in the next week or two.  
+Apologies for the confusion on this. 
+
 ## GoogleTest
 In order to use the test project, it is necessary to have GoogleTest pre-installed.  
 I have found the best solution to this "problem" is to utilise the capabilities of the excellent  

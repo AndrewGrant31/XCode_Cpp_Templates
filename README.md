@@ -125,6 +125,24 @@ In the section titled Build Phases, expand the Compile Sources. Now you can eith
 ![Close up of the Compile Sources section with the added source files](assets/closeup_of_test_project_compile_sources.png)  
 Be sure to include the pch.cpp files, if you are using precompiled header files.  
 
+#### .gitignore file  
+This file should be placed in the root of the main folder:
+```
+DO NOT COPY - FOR INFORMATION PURPOSES ONLY!
+
+usingGTest % tree -a -L 1
+.
+├── .DS_Store
+├── .git
+├── .gitignore
+├── LICENSE
+├── README.md
+├── testusingGTest
+├── usingGTest
+└── usingGTest.xcodeproj
+```
+Do not place it in the testing project.  Strange things can happen...  
+
 # Caveat  
 I will not be able to respond to enquiries or commentaries as quickly or as efficiently as people may expect.  
 If you run into a problem, please by all means reach out, but I do encourage you to try and sort the problem out,  

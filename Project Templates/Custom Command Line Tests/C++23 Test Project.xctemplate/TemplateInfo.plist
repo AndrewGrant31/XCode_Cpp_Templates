@@ -146,7 +146,7 @@
 			<key>Beginning</key>
 			<string>TEST_F(testappname, ReturnCorrectAppName) {</string>
 			<key>line1</key>
-			<string>std::string expected_{&quot;usingGTest&quot;};</string>
+			<string>std::string expected_{&quot;insert correct appname here&quot;};</string>
 			<key>line2</key>
 			<string>EXPECT_EQ(expected_, appname-&gt;Get());</string>
 			<key>End</key>

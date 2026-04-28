@@ -1,3 +1,9 @@
+# Quick warning  
+I'm currently doing some maintenance on this repo, and unfortunately, I have run into a bit of problem.  
+It may or may not work.  
+I am trying to find the source of **my** error and will update as soon as I find it  
+Sincere apologies for this inconvenience  
+
 # XCode_Cpp_Templates
 A set of templates for developing and using C++ in XCode (c++ standard 23) with GoogleTest being made available
 

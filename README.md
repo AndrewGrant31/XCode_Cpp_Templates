@@ -2,6 +2,9 @@
 A set of templates for developing and using C++ in XCode (c++ standard 23) with GoogleTest being made available
 
 ## First things first:  
+
+### IDETemplateMacros.plist  
+
 Pop the **IDETemplateMacros.plist** file into:  
 **~/Library/Developer/Xcode/UserData**   
 Unless you already have a file with the identifier **_IDETemplateMacros.plist_**.  
@@ -18,6 +21,28 @@ If so, copy the following into the existing **_IDETemplateMacros.plist_**
         <string>___TESTLC______FILENAME___</string>  
     </dict>  
   ```
+The project template defaults to using inc and src for the declaration and the defintion folders respectively.  
+If you wish to use something else, and many do, change the valules in this file.  
+#### Change the values in Xcode  
+
+**Open the file using Xcode**
++ Locate the text ___DECLARATIONDIR___  (for the declaration directory/folder)
++ Double click on the value (to highlight it) and enter the text you wish to use
++ Locate the text ___DEFINITIONDIR___ (for the defintion directory/folder)
++ Double click on  the value (to highlight it) and enter the text you wish to use
++ Close the file
+   
+
+**Using an XML Editor**
++ Open the file using your xml editor
++  Locate the key DECLARATIONDIR  
++ Beneath this is the a string tag with the value written between the opening and closing tags
++ Change this value to whatever you wish
++ Locate the key DEFINITIONDIR
++ Beneath this is the string tag with the value written between the opening and closing tags
++ Change this value to whatever you wish
++ Don't forget to save the file before closing it  
+
 
 ## The Templates  
 The template folders (File and Project) should placed in:  

@@ -8,6 +8,10 @@
 	<string>test</string>
 	<key>CLASS</key>
 	<string>___FILEBASENAMEASIDENTIFIER___</string>
+	<key>DECLARATIONDIR</key>
+	<string>include</string>
+	<key>DEFINITIONDIR</key>
+	<string>source</string>
 	<key>TESTFILENAME</key>
 	<string>___FILENAME___</string>
 </dict>

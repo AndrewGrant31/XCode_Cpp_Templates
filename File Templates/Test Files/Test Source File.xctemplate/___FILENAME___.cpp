@@ -8,6 +8,7 @@
 // the build system should pick up the relevant path
 // if not, just complete the path until the error message goes away
 //#include "pch.hh"
+#include "testpch.hh"
 
 #include "___FILEBASENAMEASIDENTIFIER___/___CLASS___.hh"
 

@@ -2,13 +2,15 @@
 
 #pragma once
 
-#include <gtest.h>
-#include "pch.hh"
+//#include <gtest.h>
+//#include "pch.hh"
+
+#include "testpch.hh"
 
 // declaration (header) file for testing
 #include ""
 
-class ___FILEBASENAMEASIDENTIFIER___ : public ::testing::
+class ___FILEBASENAMEASIDENTIFIER___ : public ::testing::Test
 {
 private:
     

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>Kind</key>
@@ -145,7 +145,7 @@ std::string app::appname::Get()
 }
 						</string>
 						<key>___PROJECTNAME___.cpp:include</key>
-						<string>// delete, comment or uncomment the line which doesn't work
+						<string>// delete, comment or uncomment the line which doesn&apos;t work
 //#include &quot;pch/pch.hh&quot;
 #include &quot;pch.hh&quot;
 //#include &quot;___DECLARATIONDIR___/appdetails/appname.hh&quot;

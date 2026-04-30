@@ -58,7 +58,10 @@
 				<key>LIBRARY_SEARCH_PATHS</key>
 				<string>/opt/homebrew/Cellar/googletest/1.17.0/lib/**</string>
 				<key>HEADER_SEARCH_PATHS</key>
-				<string>/opt/homebrew/Cellar/googletest/1.17.0/include/**</string>
+				<array>
+					<string>/opt/homebrew/Cellar/googletest/1.17.0/include/**</string>
+					<string>testpch/**</string>
+				</array>
 				<key>CLANG_CXX_LIBRARY</key>
 				<string>libc++</string>
 				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
@@ -114,46 +117,43 @@
 				<dict>
 					<key>Nodes</key>
 					<array>
-						<string>testappname/testappname.hh:comments</string>
-						<string>testappname/testappname.hh:pragma</string>
-						<string>testappname/testappname.hh:gtest</string>
-						<string>testappname/testappname.hh:include</string>
-						<string>testappname.cpp:comments</string>
-						<string>testappname.cpp:include</string>
-						<string>testappname.cpp:content</string>
+						<string>testpch/testpch.hh:titlecomments</string>
+						<string>testpch/testpch.hh:pragma</string>
+						<string>testpch/testpch.hh:content</string>
+						<string>testpch/testpch.hh:gtest</string>
+						<string>testpch/testpch.hh:gmock</string>
+						<string>testpch/testpch.hh:comments</string>
+						<string>testpch/testpch.hh:include</string>
+						<string>testpch/testpch.cpp:titlecomments</string>
+						<string>testpch/testpch.cpp:includes</string>
+						<string>testpch/testpch.cpp:comments</string>
 					</array>
 					<key>Definitions</key>
 					<dict>
-						<key>testappname/testappname.hh:pragma</key>
+						<key>testpch/testpch.hh:titlecomments</key>
+						<string></string>
+						<key>testpch/testpch.hh:pragma</key>
 						<string>#pragma once</string>
-						<key>testappname/testappname.hh:gtest</key>
+						<key>testpch/testpch.hh:content</key>
+						<string></string>
+						<key>testpch/testpch.hh:gtest</key>
 						<string>#include &lt;gtest.h&gt;</string>
-						<key>testappname/testappname.hh:include</key>
-						<string>#include &quot;../../usingGTest/inc/appname.hh&quot;</string>
-						<key>testappname.cpp:include</key>
-						<string>#include &quot;testappname/testappname.hh&quot;</string>
-						<key>testappname.cpp:test:content</key>
-						<string>// insert test code....</string>
+						<key>testpch/testpch.hh:gmock</key>
+						<string>#include &lt;gmock.h&gt;</string>
+						<key>testpch/testpch.hh:comments</key>
+						<string>// insert other includes below:</string>
+						<key>testpch/testpch.cpp:titlecomments</key>
+						<string></string>
+						<key>testpch/testpch.cpp:includes</key>
+						<string>#include &quot;testpch.hh&quot;</string>
+						<key>testpch/testpch.cpp:comments</key>
+						<string>// DO NOT WRITE ANYTHINIG ELSE IN THIS FILE!</string>
 					</dict>
 				</dict>
 			</dict>
 		</dict>
 	</array>
 	<key>Definitions</key>
-	<dict>
-		<key>*:test</key>
-		<dict>
-			<key>Beginning</key>
-			<string>TEST_F(testappname, ReturnCorrectAppName) {</string>
-			<key>line1</key>
-			<string>std::string expected_{&quot;insert correct appname here&quot;};</string>
-			<key>line2</key>
-			<string>EXPECT_EQ(expected_, appname-&gt;Get());</string>
-			<key>End</key>
-			<string>}</string>
-			<key>Indent</key>
-			<integer>1</integer>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

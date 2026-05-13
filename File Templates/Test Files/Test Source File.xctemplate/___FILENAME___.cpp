@@ -10,6 +10,6 @@
 //#include "pch.hh"
 #include "testpch.hh"
 
-#include "___FILEBASENAMEASIDENTIFIER___/___CLASS___.hh"
-
-
+// comment/uncomment as necessary
+//#include "___FILEBASENAMEASIDENTIFIER___/___CLASS___.hh"
+#include "___CLASS___.hh"

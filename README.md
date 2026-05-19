@@ -46,7 +46,7 @@ If you wish to use something else, and many do, change the valules in this file.
 
 ## The Templates  
 The template folders (File and Project) should placed in:  
-**~/Library/Developer/Xcode/** 
+**~/Library/Developer/Xcode/Templates** 
 
 The structure should look like this:
 ```

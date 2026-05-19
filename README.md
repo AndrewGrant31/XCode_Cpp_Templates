@@ -18,7 +18,9 @@ If so, copy the following into the existing **_IDETemplateMacros.plist_**
         <key>CLASS</key>  
         <string>___FILEBASENAME___</string>  
         <key>TESTFILENAME</key>  
-        <string>___TESTLC______FILENAME___</string>  
+        <string>___TESTLC______FILENAME___</string>
+      	<key>CPPSTANDARD</key>
+	      <string>c++23</string>
     </dict>  
   ```
 The project template defaults to using inc and src for the declaration and the defintion folders respectively.  

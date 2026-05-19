@@ -14,5 +14,7 @@
 	<string>src</string>
 	<key>TESTFILENAME</key>
 	<string>___FILENAME___</string>
+	<key>CPPSTANDARD</key>
+	<string>c++23</string>
 </dict>
 </plist>
